@@ -1,0 +1,6 @@
+
+Platform: win32
+Architecture: x64
+Total Memory: 7.88 GB
+CPU info: Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
+Uptime: 1511955.70 secondsChecked At : Tue Jul 22 2025 10:32:09 GMT+0100 (West Africa Standard Time)
