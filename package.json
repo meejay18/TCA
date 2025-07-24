@@ -1,0 +1,13 @@
+{
+  "name": "tca-cohort-6",
+  "version": "1.0.0",
+  "main": "classwork.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node correction.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

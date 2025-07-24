@@ -2,8 +2,6 @@
 // third party modules
 // local modules
 
-const fs = require('fs')
-
 // const os = require('os');
 
 // const total = os.totalmem();
@@ -134,25 +132,16 @@ const fs = require('fs')
 //   console.log(err);
 //  }
 // });
-const os = require('os')
-fs.mkdir('../logs', (err) => {
-  if (err) {
-    console.log(err)
-  } else {
-    fs.writeFile(
-      '../logs/system-info.txt',
-      `Platform: ${os.platform()}\n Architecture: ${os.arch()}\nTotal Memory: ${(
-        os.totalmem() /
-        1024 ** 3
-      ).toFixed(2)} GB\n CPU info: ${os.cpus()[0].model} Uptime: ${os.uptime() * 1000}`,
-      'utf-8',
-      (err, data) => {
-        if (err) {
-          console.log(err.message)
-        } else {
-          console.log(data)
-        }
-      }
-    )
-  }
-})
+
+// const fs = require('fs')
+
+// fs.writeFile('./tuesdayTest.txt', 'My name is Digban Mijoghene', 'utf-8', (err, data) => {
+//   if (err) {
+//     console.log('Error writing file', err.message)
+//   } else {
+//     const result = data.split(' ')
+//     console.log(result)
+
+//     // fs.readFile('./tuesdayTest.txt', )
+//   }
+// })
