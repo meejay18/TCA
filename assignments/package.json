@@ -1,13 +1,16 @@
 {
-  "name": "tca-cohort-6",
+  "name": "assignments",
   "version": "1.0.0",
-  "main": "classwork.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./sync_async/server.js"
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "uuid": "^11.1.0"
+  }
 }

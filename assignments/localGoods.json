@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f22a048a-ae9f-4701-a689-8e8ee74bd356",
+    "name": "eggs",
+    "instock": true,
+    "unit": "200",
+    "unitPrice": 13400,
+    "totalPrice": 13400
+  }
+]

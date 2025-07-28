@@ -114,6 +114,14 @@ const server = http.createServer((request, response) => {
         )
       })
     }
+  } else if (request.method === 'DELETE' && request.url.startsWith('/delete')) {
+    const id = request.url.split('/')[2]
+    const findStudent = studentDB.find((e) => e.id === id)
+    const findIndex = studentDB.findIndex((e) => e.id === findStudent.id)
+
+    studentDB.splice(findIndex, 1)
+
+    writeData(studentDB)
   }
   // Write the DELETE endpoint
   else {
